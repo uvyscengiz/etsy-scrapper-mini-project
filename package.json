@@ -1,0 +1,11 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "author": "Uveys <uveys.cengiz@gmail.com>",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "backend": "yarn workspace @app/backend",
+    "frontend": "yarn workspace @app/frontend"
+  }
+}
